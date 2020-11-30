@@ -63,7 +63,7 @@ nav a:hover {
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
-    margin: auto;
+    margin:auto;
     padding:0;
     background-color: #dddddd;
     overflow: hidden;
@@ -76,13 +76,15 @@ nav ul {
     width: 380px;
     font-size:120%;
     text-align:center;
-  
+ display:inherit;justify-content:left;align-items:flex-start;
 
 }
 
 
 nav ul li {
-    float:left;
+    float:left ;
+    
+    
 }
 
 nav li a {
@@ -91,6 +93,7 @@ nav li a {
     text-align:center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 
 nav li a:hover {
