@@ -21,8 +21,8 @@ article {
     text-align: justify;
 }
 
-.p-centered {
-    text-align:center;
+.centered {
+    text-align:left;
 }
 
 header {
