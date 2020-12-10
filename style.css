@@ -21,8 +21,11 @@ article {
     text-align: justify;
 }
 
-.centered {
+.float-left {
     text-align:left;
+}
+.float-center{
+    text-align:center;
 }
 
 header {
@@ -40,10 +43,16 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefRechts{
+img.float-right{
     float: right;
     margin-left: 15px;
    margin-bottom:7px;
+}
+img#float-right{
+    float: right;
+    margin-left: 15px;
+   margin-bottom:7px;
+   width:150px;
 }
 
 .smalltext {
