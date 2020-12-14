@@ -123,5 +123,20 @@ nav ol li {
     font-size:120%;
 }
 
+.belangrijk {
+    animation: veranderkleur 10s infinite;
+}
+@keyframes veranderkleur {
+    0% {color:black;}
+    33% {color:purple;}
+    66% {color:rgb(128, 55, 37);}
+    100% {color:black;}
+}
+img {
+    animation: fade 3s;
+}
 
-
+@keyframes fade {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
